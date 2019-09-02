@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Антон Герасимов](https://up.htmlacademy.ru/htmlcss/26/user/1015881).
-* Наставник: `Неизвестно`.
+* Наставник: [Антон Завгородний](https://htmlacademy.ru/profile/antemionoy).
 
 ---
 
