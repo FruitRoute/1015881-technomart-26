@@ -15,7 +15,8 @@
                         </li>
                         <li>
                             <img src="search.png" width="100" height="100" alt="Поиск">
-                            <p>Поиск:</p>
+                            <input type="text" name="search" value="" placeholder="Поиск:" id="search"></p>
+                            <label for="search" class="visually-hidden">Поиск</label>
                         </li>
                         <li>
                             <img src="pins.png" width="100" height="100" alt="Закладки">
@@ -70,24 +71,62 @@
                 </ul>
             </section>
             <h1>Перфораторы</h1>
-            <section>
+            <fieldset>
+                <form action="какой-то_сайт.ru" method="POST">
                 <ul>
                     <li><h2>Производители:</h2></li>
-                    <li><img src=checkbox.png width="100" height="100" alt="Чекбокс">Bosh</li>
-                    <li><img src=checkbox.png width="100" height="100" alt="Чекбокс">Интерскол</li>
-                    <li><img src=checkbox.png width="100" height="100" alt="Чекбокс">Makita</li>
-                    <li><img src=checkbox.png width="100" height="100" alt="Чекбокс">Dewalt</li>
-                    <li><img src=checkbox.png width="100" height="100" alt="Чекбокс">Hitachi</li>
+                    <li>
+                        <p>           
+                            <input type="checkbox" name="BOSH" id="BOSHch" checked>
+                            <label for="BOSHch">BOSH</label>
+                        </p>
+                    </li>
+                    <li>
+                            <p>           
+                                <input type="checkbox" name="INTERSKOL" id="INTERSKOLch" >
+                                <label for="INTERSKOLch">ИНТЕРСКОЛ</label>
+                            </p>
+                    </li>
+                    <li>
+                            <p>           
+                                <input type="checkbox" name="MAKITA" id="MAKITAch" checked>
+                                <label for="MAKITAch">MAKITA</label>
+                            </p>
+                    </li>
+                    <li>
+                            <p>           
+                                <input type="checkbox" name="DEWALT" id="DEWALTch" >
+                                <label for="DEWALTch">DEWALT</label>
+                            </p>
+                    </li>
+                    <li>
+                            <p>           
+                                <input type="checkbox" name="HITACHI" id="HITACHIch" >
+                                <label for="HITACHIch">HITACHI</label>
+                            </p>
+                    </li>
+                    
                 </ul>
-            </section>
-            <section>
-                    <ul>
-                        <li><h2>Питание:</h2></li>
-                        <li><img src=roundcheckbox.png width="100" height="100" alt="Чекбокс">Аккумуляторные</li>
-                        <li><img src=roundcheckbox.png width="100" height="100" alt="Чекбокс">Сетевые</li>
-                        <li><button type="button">Показать</button></li>
-                    </ul>
-                </section>
+                <ul>
+                    <li>
+                        <h2>Питание</h2>
+                    </li>
+                    <li>
+                            <p>           
+                                    <input type="radio" name="Type" id="Accumulatorch" >
+                                    <label for="Accumulatorch">Аккумуляторные</label>
+                            </p>
+                    </li>
+                    <li>
+                            <p>           
+                                    <input type="radio" name="Type" id="Chainch" >
+                                    <label for="Chainch">Сетевые</label>
+                            </p>
+                    </li>
+                </ul>
+                <p><button type="submit">Показать</button></p>
+            </form>
+            </fieldset>
                 <section>
                     <ul>
                         <li>
@@ -202,6 +241,11 @@
                         </li>
                 </ul>
             </nav>
+            <section class="map">
+                <a href="#">
+                <img src="map.jpg" height="600" width="1050" alt="Карта">
+                </a>
+            </section>
             <section>
                 <ul>
                     <li><p>© 2010-2017 Компания "Техномарт"<br>
@@ -223,7 +267,29 @@
                     </li>
                 </ul>
             </section>
+          <form>
+              <fieldset>
+                  <ul>
+                      <li>
+                        <p>  
+                        <img src="checked.png" width="150" height="150" alt="Галочка">
+                        Товар добавлен в корзину!
+                        </p>
+                      </li>
+                      <li>
+                          <p>
+                              <a href="#">Оформить заказ</a>
+                          </p>
+                      </li>
+                      <li>
+                            <p>
+                             <button type="button">Продолжить покупки</button>
+                            </p>
+                        </li>
+                  </ul>
+              </fieldset>
+          </form>
+
     </body>
-    <!--TesCommit-->
 
 </html>
